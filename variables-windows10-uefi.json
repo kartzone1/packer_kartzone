@@ -1,0 +1,8 @@
+{
+    "qemu_bios": "/usr/share/OVMF/OVMF_CODE.fd",
+    "build_directory": "/kvm/packer/build",
+    "headless": "true",
+    "boot_wait": "1s",
+    "disk_interface": "virtio",
+    "cd_files": "/usr/share/virtio-win/drivers/amd64/Win10,windows10/Autounattend.xml,{{template_dir}}/scripts/base_setup.ps1"
+}

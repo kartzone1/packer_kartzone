@@ -1,0 +1,16 @@
+{
+    "qemuargs_opt": "-bios",
+    "qemuargs_value": "/usr/share/edk2/ovmf/OVMF_CODE.fd",
+    "boot_command": "<wait>c<wait>linuxefi /images/pxeboot/vmlinuz inst.stage2=hd:LABEL=Fedora-E-dvd-x86_64-32 inst.repo=cdrom inst.ks=http://{{.HTTPIP}}:{{.HTTPPort}}/{{user `ks_path`}}<enter>initrdefi /images/pxeboot/initrd.img<enter><wait>boot<enter>",
+    "build_directory": "/kvm/packer/build",
+    "virtio_win_iso": "/kvm/virtio-win.iso",
+    "http_directory": "/home/kartnico",
+    "ks_path": "fedora32-workstation.ks",
+    "headless": "true",
+    "box_basename": "fedora32-workstation",
+    "iso_checksum": "7ce4bb4b3e77e2b0c74e5aa3478eef1c26104a7040701f9de3d3a2cb06f6b05d",
+    "iso_name": "Fedora-Everything-netinst-x86_64-32-1.6.iso",
+    "memory": "4096",
+    "mirror_directory": "releases/32/Everything/x86_64/iso"
+}
+
