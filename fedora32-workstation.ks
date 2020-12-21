@@ -37,6 +37,8 @@ bootloader --timeout=1 --append="no_timer_check net.ifnames=0"
 
 services --enabled=sshd,cloud-init,cloud-init-local,cloud-config,cloud-final
 
+xconfig --startxonboot
+
 zerombr
 clearpart --all --initlabel
 autopart
