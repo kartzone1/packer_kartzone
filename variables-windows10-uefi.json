@@ -4,5 +4,8 @@
     "boot_wait": "2s",
     "headless": "true",
     "disk_interface": "virtio",
+    "iso_checksum": "DC974CE176F58ACB500DF4BA3C80F15B4D586869E6ADB3B63C9A3BF9E8EB2138",
+    "iso_checksum_type": "sha256",
+    "iso_url": "/kvm/SW_DVD9_Win_Pro_10_20H2.2_64BIT_English_Pro_Ent_EDU_N_MLF_-2_X22-46651.ISO",
     "cd_files": "/usr/share/virtio-win/drivers/amd64/Win10,windows10/*,{{template_dir}}/scripts/base_setup.ps1"
 }
