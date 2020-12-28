@@ -186,7 +186,7 @@
                 </SynchronousCommand>
 		    <SynchronousCommand wcm:action="add">
                     <CommandLine>powershell -NoLogo -ExecutionPolicy RemoteSigned -File e:\install-cloud-init.ps1"</CommandLine>
-                    <Description>Install Salt Minion</Description>
+                    <Description>Install CloudBase Init</Description>
                     <Order>5</Order>
                     <RequiresUserInput>true</RequiresUserInput>
                 </SynchronousCommand>
