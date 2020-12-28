@@ -7,3 +7,5 @@ $salthostname=[System.Net.Dns]::GetHostByName($env:computerName).HostName
 
 Remove-Item -Path $filePath
 Move-Item -Path $tempFilePath -Destination $filePath
+
+Add-Content "C:\salt\conf\minion" "startup_states: highstate"
